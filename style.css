@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+header, footer, main {
+    /* border: 5px solid #f7ce46; */
+}
+
+section {
+    /* border: 6px solid #081c54; */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* border: 10px solid #8d2e4f; */
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.inner-column {
+    display: block;
+    /* border: 5px solid #64c466; */
+}
